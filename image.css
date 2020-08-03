@@ -1,0 +1,59 @@
+.other_search {
+    font-family: arial,sans-serif;
+    margin-top: 5px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 10%;
+}
+
+input[type=text] {
+    text-indent: 36px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 26px;
+    height: 44px;
+    font-size: 18px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+
+input:focus,select:focus,textarea:focus,button:focus {
+            outline: none;
+        }
+
+.button {
+    width: 10%;
+    font-size: 14px;
+    background-color:#f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color:#5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sub {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 106px;
+    position: relative;
+    bottom: 40px;
+}

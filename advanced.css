@@ -1,0 +1,80 @@
+
+.header {
+    color: #d93025;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: arial, sans-serif;
+}
+
+
+.other_search {
+    font-family: arial,sans-serif;
+    margin-top: 5px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+.instruction {
+    font-size: 20px;
+    color: #333;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: arial, sans-serif;
+}
+
+
+.baseline {
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+.boxes {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+input[type=text] {
+    position: absolute;
+    left: 250px;
+    width: 30%;
+    height: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    font-size: 13px;
+    text-indent: 5px;
+}
+
+
+input:focus,select:focus,textarea:focus,button:focus {
+    outline: none;
+}
+
+
+.button {
+    position: absolute;
+    left: 35%;
+    height: 32px;
+    width: 7%;
+    font-size: 12px;
+    background-color: #4d90fe;
+    box-shadow: none;
+    color: #fff;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
